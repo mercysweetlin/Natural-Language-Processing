@@ -1,0 +1,35 @@
+This Jupyter Notebook focuses on Natural Language Processing (NLP) basics using the nltk (Natural Language Toolkit) library. It covers various fundamental text-processing techniques such as stemming, tokenization, stop words removal, and WordNet-based operations.
+
+1. Importing Libraries
+The notebook begins by importing the necessary libraries required for NLP tasks.
+
+2. Stemming
+Stemming is the process of reducing words to their root form. This section applies Porter Stemming, which removes suffixes from words to obtain their base form. For example, words like "running" and "ran" are reduced to "run," and "doing" is reduced to "do." This helps in normalizing words for further processing.
+
+3. Tokenization
+Tokenization is the process of breaking text into smaller units called tokens. The notebook demonstrates three types of tokenization:
+Word Tokenization: Splits a sentence into individual words.
+Sentence Tokenization: Splits a paragraph into separate sentences.
+Punctuation-based Tokenization: Treats punctuation as separate tokens.
+This is useful for analyzing text at different granular levels.
+
+4. Removing Stop Words
+Stop words are commonly used words such as "is," "the," "a," and "on," which often do not add much meaning to text analysis. This section removes such words from sentences, leaving only the most meaningful words.
+
+5. WordNet (Lexical Database for English)
+A markdown section in the notebook mentions WordNet, which is a large lexical database of English words. This part likely deals with:
+Finding synonyms and antonyms of words.
+Retrieving definitions of words.
+Identifying hypernyms (more general terms) and hyponyms (more specific terms).
+For example, given the word "happy," WordNet can retrieve its synonyms like "joyful" and "content."
+
+5. Named Entity Recognition (NER)
+Named Entity Recognition (NER) is a Natural Language Processing (NLP) technique used to identify and classify entities in text into predefined categories such as:
+Persons (e.g., "Albert Einstein")
+Organizations (e.g., "Google")
+Locations (e.g., "New York")
+NER uses linguistic rules and machine learning models to recognize named entities in a sentence.
+
+6. Parse Trees (Syntactic Parsing)
+A Parse Tree represents the syntactic structure of a sentence based on grammar rules. It shows how words in a sentence are related to each other in terms of phrases and grammatical roles (such as subject, object, and verb).
+
